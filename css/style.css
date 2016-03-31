@@ -1,0 +1,51 @@
+body{
+	color: #000;
+	background: #fff;
+	font: 16px sans-serif;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+.headertabs{
+	margin-bottom: 10px;
+}
+.headertabs:after{
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+}
+.tabswr{
+	border: 1px solid #B43104;
+	width: 300px;
+	height: 200px;
+	padding: 5px;
+}
+.nametab{
+	float: left;
+	width: 50px;
+	text-align: center;
+	padding: 5px;
+	margin-right: 5px;
+	border: 1px solid #B43104;
+	cursor: pointer;
+	-moz-transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+	
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+.nametab.actheadtab,
+.nametab:hover{
+	color: #fff;
+	background: #B43104;
+}
+.contenttab{
+	display: none; /*скрываем содержимое табов*/
+}
+.contenttab.activetab{
+	display: block; /*отобразим содержимое активного таба*/
+}
