@@ -1,4 +1,6 @@
- //плагин табов
+/*
+* developed by http://wolfweb.com.ua
+*/
 (function($){
 
     $.fn.simpleTabs = function (options) {
@@ -28,4 +30,4 @@
         });
     };
 
-}(jQuery);
+})(jQuery);
