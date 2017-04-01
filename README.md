@@ -1,14 +1,14 @@
 # simple_tabs
 Simple tabs jQuery</br>
 jQuery плагин табов
-#Подключение
+<h4>Подключение</h4>
 ```html
 <head>
      <script src="jquery.js"></script>
      <script src="simpletabs.js"></script>   
 </head>
 ```
-#Разметка
+<h4>Разметка</h4>
 ```html
 <div class="tabsblock">
      <div class="headertabs">
@@ -29,7 +29,7 @@ jQuery плагин табов
      </div>
 </div>
 ```
-#Инициализация
+<h4>Инициализация</h4>
 ```js
 $(document).ready(function(){
 
@@ -37,7 +37,7 @@ $(document).ready(function(){
      
 });
 ```
-#Обязательные стили
+<h4>Обязательные стили</h4>
 ```css
 .contenttab{
      display: none; /*скрываем содержимое табов*/
@@ -45,7 +45,7 @@ $(document).ready(function(){
 .contenttab.activetab{
      display: block; /*отобразим содержимое активного таба*/
 ```
-#Инициализация с параметрами
+<h4>Инициализация с параметрами</h4>
 ```js
 $(document).ready(function(){
 
@@ -59,5 +59,5 @@ $(document).ready(function(){
      
 });
 ```
-####Подробнее о табах 
-[wolfweb.com.ua](http://wolfweb.com.ua/javascript/prostye-jquery-taby/)
+<h4>Подробнее о табах</h4>
+http://wolfweb.com.ua/js/prostye-jquery-taby/
