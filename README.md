@@ -44,6 +44,7 @@ $(document).ready(function(){
 }
 .contenttab.activetab{
      display: block; /*отобразим содержимое активного таба*/
+}
 ```
 Инициализация с параметрами
 ```js
