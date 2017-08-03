@@ -33,7 +33,7 @@ jQuery плагин табов</br>
 ```js
 $(document).ready(function(){
 
-   $('tabsblock').simpleTabs();
+   $('.tabsblock').simpleTabs();
      
 });
 ```
