@@ -49,7 +49,7 @@ $(document).ready(function(){
 ```js
 $(document).ready(function(){
 
-   $('tabsblock').simpleTabs({
+   $('.tabsblock').simpleTabs({
 
      'title' : '.othernametab', //заголовок таба
      'content': '.othercontenttab', //содержимое таба
