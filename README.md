@@ -54,7 +54,7 @@ $(document).ready(function(){
 
      'title' : '.othernametab', //заголовок таба
      'content': '.othercontenttab', //содержимое таба
-     'cb': callbackFunctioinName //имя функции колбека
+     'cb': callbackFunctionName //имя функции колбека
 
    });
      
