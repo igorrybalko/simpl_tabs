@@ -1,35 +1,34 @@
 # simple_tabs
-Simple tabs jQuery</br>
-jQuery плагин табов</br>
-Подключение
+Simple jQuery tabs</br>
+Installation
 ```html
 <head>
      <script src="jquery.js"></script>
      <script src="simpletabs.js"></script>   
 </head>
 ```
-Разметка
+Layout
 ```html
 <div class="tabsblock">
      <div class="headertabs">
-          <div class="nametab actheadtab">Таб 1</div>
-          <div class="nametab">Таб 2</div>
-          <div class="nametab">Таб 3</div>
+          <div class="nametab actheadtab">Tab 1</div>
+          <div class="nametab">Tab 2</div>
+          <div class="nametab">Tab 3</div>
      </div>
      <div class="tabswr">
           <div class="contenttab activetab">
-               Содержимое первого таба
+               Content of the first tab
           </div>
           <div class="contenttab">
-               Содержимое второго таба
+               Content of the second tab
           </div>
           <div class="contenttab">
-               Содержимое третьего таба
+               The contents of the third tab
           </div>
      </div>
 </div>
 ```
-Инициализация
+Initialization
 ```js
 $(document).ready(function(){
 
@@ -37,28 +36,28 @@ $(document).ready(function(){
      
 });
 ```
-Обязательные стили
+Required styles
 ```css
 .contenttab{
-     display: none; /*скрываем содержимое табов*/
+     display: none; /* hide contents of the tabs*/
 }
 .contenttab.activetab{
-     display: block; /*отобразим содержимое активного таба*/
+     display: block; /*display contents of the active tab*/
 }
 ```
-Инициализация с параметрами
+Initialization with options
 ```js
 $(document).ready(function(){
 
    $('.tabsblock').simpleTabs({
 
-     'title' : '.othernametab', //заголовок таба
-     'content': '.othercontenttab', //содержимое таба
-     'cb': callbackFunctionName //имя функции колбека
+     'title' : '.othernametab', // tab title selector
+     'content': '.othercontenttab', // tab content selector
+     'cb': callbackFunctionName // callback function
 
    });
      
 });
 ```
-Подробнее о табах
-http://wolfweb.com.ua/js/prostye-jquery-taby/
+Detailed
+http://greencomet.net/javascript/tabs-jquery-plugin

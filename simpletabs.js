@@ -1,5 +1,5 @@
 /*
-* developed by http://wolfweb.com.ua
+* developed by http://greencomet.net
 */
 (function($){
 
@@ -11,12 +11,12 @@
             'cb': ''
         }, options);
 
-        var nametab = $(this).find(settings.title), /*селектор имен табов*/
-            contenttab = $(this).find(settings.content),/*селектор содержимого табов*/
+        var nametab = $(this).find(settings.title), // tab title selector
+            contenttab = $(this).find(settings.content), // tab content selector
             callback = settings.cb,
             tabsBlock = this;
         nametab.on('click', function () {
-            var activeClass = $(this).hasClass('actheadtab');/*является ли имя таба активным?*/
+            var activeClass = $(this).hasClass('actheadtab'); // is the tab title active?
             if (!activeClass) {
                 var ind = $(this).index();
                 $(tabsBlock).find('.actheadtab').removeClass('actheadtab');
