@@ -17,13 +17,13 @@ Layout
      </div>
      <div class="tabswr">
           <div class="contenttab activetab">
-               Content of the first tab
+               Contents of the first tab
           </div>
           <div class="contenttab">
-               Content of the second tab
+               Contents of the second tab
           </div>
           <div class="contenttab">
-               The contents of the third tab
+               Contents of the third tab
           </div>
      </div>
 </div>
